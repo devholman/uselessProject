@@ -127,3 +127,48 @@ body {
 /**
  * App code
  */
+$mobile: "screen and (min-width: 640px";
+
+ body{
+    background-color: black;
+ }
+
+ .bad-day-container{
+    position: absolute;
+    text-align: center;
+    width: 40%;
+    height: 40%;
+    top: 30%;
+    outline: solid white;
+    left: 30%;
+
+        p{
+            font-size: 50px;
+        }
+
+        button{
+            color: inherit;
+            font: 120px;
+            margin: 0;
+            height: 15%;
+            text-decoration: none;
+            width: 40%;
+            font-size: 28px;
+            background: none;
+            border-style: none;
+            outline: none;
+        }
+ }
+
+ .hello{
+    color:white;
+ }
+
+
+.imagurr{
+    width: 140px;
+    margin: 10px;
+    transition: all .3s;
+  
+}
+
